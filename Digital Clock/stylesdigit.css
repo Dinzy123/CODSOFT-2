@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images\\background3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.digital-watch {
+    background-color: grey;
+    border: 10px solid #555;
+    border-radius: 50px;
+    padding: 50px;
+    box-shadow: 0 0 50px rgba(253, 253, 253, 0.5);
+    position: absolute;
+    
+}
+.heading {
+    position: absolute;
+    top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.time {
+    font-size: 3rem;
+
+}
+.analog .btn1 {
+    color: white;
+    background-color: blue;
+    position: absolute;
+    font-weight: bold;
+    align-items: center;
+    padding: 5px 15px;
+    width: 100px;
+    height: 20px;
+    right: 612px;
+    top: 440px;
+    text-decoration: none;
+    box-shadow: 0 0 30px rgba(253, 253, 253, 0.5);
+}
+.copyright
+{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    background: transparent;
+    font-weight: 300px;
+    margin-top: 500px;
+    margin-bottom: 33px;
+}
+.copyright i
+{
+    color: #ff004f;
+}
+@media only screen and (max-width: 600px)
+{
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(images\\background3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .digital-watch {
+        background-color: grey;
+        border: 10px solid #555;
+        border-radius: 50px;
+        padding: 50px;
+        box-shadow: 0 0 50px rgba(253, 253, 253, 0.5);
+        position: absolute;  
+    }
+    .analog .btn1 {
+        top: 500px;
+        left: 120px;
+        width: 100px;
+    }
+    .heading {
+        font-size: 12px;
+
+    }
+    .copyright
+    {
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding: 2px 0;
+        background: transparent;
+        font-weight: 300;
+        margin-top: 700px;
+        margin-bottom: 20px;
+    }
+    .copyright i
+    {
+        color: #ff004f;
+    }
+}

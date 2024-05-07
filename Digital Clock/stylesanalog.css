@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(images\\background3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.watch {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    left: 580px;
+}
+
+.center-circle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand {
+    position: absolute;
+    background: white;
+    transform-origin: 50% 100%;
+    border-radius: 2px;
+}
+
+.hour-hand {
+    width: 4px;
+    height: 50px;
+    top: 50px;
+    left: 98px;
+}
+
+.minute-hand {
+    width: 2px;
+    height: 70px;
+    top: 30px;
+    left: 99px;
+}
+
+.second-hand {
+    width: 1px;
+    height: 80px;
+    top: 20px;
+    left: 99.5px;
+}
+
+.sort {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 480px;
+    top: 50px;
+
+}
+.sort span {
+    color :blue;
+}
+.button .btn{
+    color: white;
+    background-color: blue;
+    position: absolute;
+    font-weight: bold;
+    align-items: center;
+    padding: 5px 15px;
+    width: 90px;
+    height: 20px;
+    right: 616px;
+    top: 460px;
+    text-decoration: none;
+    box-shadow: 0 0 30px rgba(253, 253, 253, 0.5);
+}
+
+.number {
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    
+    transform: translate(-50%, -50%); /* Center the numbers in the watch face */
+}
+
+/* Position the numbers */
+
+.number.number-3 { top: 100px; right: -20px; }
+
+.number.number-6 { top: 190px; left: 50%; }
+
+.number.number-9 { top: 100px; left: 8px; }
+
+.number.number-12 { top: 8px; left: 50%; }
+
+.copyright
+{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    background: transparent;
+    font-weight: 300;
+    margin-top: 550px;
+}
+.copyright i
+{
+    color: #ff004f;
+}
+
+@media only screen and (max-width: 600px)
+{
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-image: url(images\\background3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .watch {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 50%;
+    left: 80px;
+    }
+    .sort {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        right: 50px;
+        top: 60px;
+        font-size: 12px;
+    }
+    .button .btn{
+        color: white;
+        background-color: blue;
+        position: absolute;
+        font-weight: bold;
+        align-items: center;
+        width: 90px;
+        height: 20px;
+        right: 125px;
+        top: 530px;
+        text-decoration: none;
+    }
+    .copyright
+{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    background: transparent;
+    font-weight: 300;
+    margin-top: 700px;
+}
+.copyright i
+{
+    color: #ff004f;
+}
+    
+}
+
