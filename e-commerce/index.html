@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Digital E-commerce Website</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Products</h2>
+        <div class="product-list">
+            <div class="product" data-id="1">
+                <img src="images/earpods.jpg" alt="Earpods pro">
+                <h3>Earpods Pro</h3>
+                <p>R250</p>
+                <button id="cart-btn" onclick="addToCart(1, 'Earpods Pro', 150)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="2">
+                <img src="images/headphones.jpg" alt="Headphones">
+                <h3>HeadPhones</h3>
+                <p>R400</p>
+                <button onclick="addToCart(2, 'HeadPhones', 400)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="3">
+                <img src="images/Laptop.jpg" alt="Laptop">
+                <h3>Lenovo Laptop</h3>
+                <p>R8 000</p>
+                <button onclick="addToCart(3, 'Lenovo i3 laptop', 8000)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="4">
+                <br>
+                <img src="images/tv.jpg" alt="Samsung Smart TV">
+                <h3>Samsung Smart TV</h3>
+                <p>R11 000</p>
+                <button onclick="addToCart(4, 'Samsung Smart TV', 11000)">Add to Cart</button>
+            </div>
+            <div class="product" data-id="5">
+                <img src="images/watch.jpg" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p>R600</p>
+                <button onclick="addToCart(5, 'Smart Watch', 600)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
